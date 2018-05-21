@@ -1,0 +1,43 @@
+#paymentinfo {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 25px;
+}
+#paymentinfo #continuebtn {
+    border-width: 0px;
+    text-align: right;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #84d934;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+#paymentinfo #continuebtn:hover {
+    background: #a9fc3c;
+    text-decoration: none;
+    cursor: pointer;
+}
+#paymentinfo .inlinelabel {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    white-space: pre;
+}
+#paymentinfo .formitem {
+    padding: 5px;
+}
+#paymentinfo .otherformitem {
+    text-align: right;
+    padding: 5px;
+}
+#paymentinfo .heading {
+    font-size: 2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

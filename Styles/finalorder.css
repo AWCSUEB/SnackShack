@@ -1,0 +1,29 @@
+#finalOrder {
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#finalOrder #submitbtn {
+  border-width: 0px;
+  text-align: right;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #84d934;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+#finalOrder #submitbtn:hover {
+  background: #a9fc3c;
+  text-decoration: none;
+  cursor: pointer;
+}
+#finalOrderComplete {
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#finalOrderComplete .messageline {
+  margin-top: 20px;
+}

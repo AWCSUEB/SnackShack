@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Cheetos Crunchy Cheese Flavored Snacks, 8.5 Ounce</title>
+    <link type="text/css" rel="stylesheet" href="Styles/nav.css">
+    <link type="text/css" rel="stylesheet" href="Styles/product.css" title="Product">
+  </head>
+  <body>
+    <div id="nav">
+      <img src="Images/strawhut.jpg" id="navimage"/>
+      <span id="navtitle">The Snack Shack</span>
+      <span class="navlink" onclick="location.href='index.html'">Home</span>
+      <span class="navlink" onclick="location.href='pages.html'">Product Pages</span>
+      <span class="navlink" onclick="location.href='cart.php'">Cart</span>
+    </div>
+    <div>
+      <div id="leftcol">
+	    <img src="Images/product2.png" alt="Cheetos Crunchy Cheese Flavored Snacks, 8.5 Ounce">
+	  </div>
+      <div id="rightcol">
+        <div id="prodtitle">Cheetos Crunchy Cheese Flavored Snacks, 8.5 Ounce</div>
+        <div id="cartops">
+          <form id="addtocartform" action="cart.php" method="POST">
+		    <span id="price">$2.98</span>
+            <span id="quantityspan"> 
+			  <label id="qtylabel" for="quantity">Qty:</label>
+              <select id="quantity" name="quantity" form="addtocartform">
+                <option name="1">1</option>
+                <option name="2">2</option>
+                <option name="3">3</option>
+                <option name="4">4</option>
+                <option name="5">5</option>
+              </select>
+            </span> 
+			<input name="productid" value="2" type="hidden">
+			<input name="name" value="Cheetos Crunchy Cheese Flavored Snacks, 8.5 Ounce" type="hidden">
+			<input name="price" value="2.98" type="hidden">
+			<input id="addtocart" value="Add To Cart" type="submit"> 
+		  </form>
+        </div>
+        <div id="proddesc">
+		  <p class="subtitle">Fast Facts</p>
+          <ul>
+            <li>8.5 oz. bag of CHEETOS Crunchy Cheese Flavored Snack</li>
+            <li>Fun and cheesy snack to add to your grocery list</li>
+            <li>Great CHEETOS snack made with real cheese</li>
+			<li>Gluten free</li>
+          </ul>
+		  <div id="nutrition_div">
+            <table id="nutrition_table">
+              <tbody>
+                <tr><td class="nut_name subtitle">Nutrition Facts</td></tr>
+                <tr><td class="nut_name">Serving Size:</td><td class="nut_value">28g (21 pieces)</td></tr>
+                <tr><td class="nut_name">Serv. Per Container:</td><td class="nut_value">Approx. 3</td></tr>
+                <tr><td class="nut_name">Calories:</td><td class="nut_value">160</td></tr>
+                <tr><td class="nut_name">Total Fat:</td><td class="nut_value">10g</td></tr>
+                <tr><td class="nut_name">Total Cholesterol:</td><td class="nut_value">0mg</td></tr>
+                <tr><td class="nut_name">Sodium:</td><td class="nut_value">250mg</td></tr>
+                <tr><td class="nut_name">Total Carbohydrate:</td><td class="nut_value">15g</td></tr>
+                <tr><td class="nut_name">Protein:</td><td class="nut_value">2g</td></tr>
+              </tbody>
+            </table>
+          </div>
+		  <p class="subtitle">Description</p>
+          <p class="subtext">CHEETOS snacks are the much-loved cheesy treats that are fun for everyone! You just can't eat a CHEETOS snack without licking the "cheetle" off your fingertips. And wherever the CHEETOS brand and CHESTER CHEETAH go, cheesy smiles are sure to follow.</p>
+          <p class="subtext">Bring a cheesy, delicious crunch to snack time with a bag of Cheetos Crunchy Cheese-Flavored Snacks. Made with real cheese for maximum flavor, these Cheetos will make the perfect addition to the snack table whether you're hanging out at home watching a movie or hosting a barbecue, party or another get-together.</p>
+          <p class="subtitle">Ingredients</p>
+          <p class="subtext">Enriched Corn Meal (Corn Meal, Ferrous Sulfate, Niacin, Thiamin Mononitrate, Riboflavin, and Folic Acid), Vegetable Oil (Corn, Canola, and/or Sunflower Oil), Cheese Seasoning (Whey, Cheddar Cheese [Milk, Cheese Cultures, Salt, Enzymes], Canola Oil, Maltodextrin [made from Corn], Salt, Whey Protein Concentrate, Monosodium Glutamate, Natural and Artificial Flavors, Lactic Acid, Citric Acid, Artificial Color [Yellow 6]), and Salt.</p>
+		  <p class="subtitle">Specifications</p>
+		  <div id="specification_div">
+		    <table id="specification_table">
+			  <tbody>
+				<tr class="specification_oddrow"><td class="spec_name">Brand</td><td class="spec_value">Cheetos</td></tr>
+				<tr class="specification_evenrow"><td class="spec_name">Flavor</td><td class="spec_value">CHEESE</td></tr>
+				<tr class="specification_oddrow"><td class="spec_name">Type</td><td class="spec_value">Cheese & Puffed Snacks</td></tr>
+				<tr class="specification_evenrow"><td class="spec_name">Part Number</td><td class="spec_value">2</td></tr>
+				<tr class="specification_oddrow"><td class="spec_name">Product Weight</td><td class="spec_value">0.5 POUNDS</td></tr>
+				<tr class="specification_evenrow"><td class="spec_name">Food Form</td><td class="spec_value">Cheese Puffs</td></tr>
+				<tr class="specification_oddrow"><td class="spec_name">Product Dimensions</td><td class="spec_value">2.44 x 11.16 x 7.40 Inches</td></tr>
+			  </tbody>
+			</table>
+		  </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

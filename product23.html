@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Food Should Taste Good, Tortilla Chips, Multigrain Bean Chips, Black Bean, 5.5 oz</title>
+    <link type="text/css" rel="stylesheet" href="Styles/nav.css">
+    <link type="text/css" rel="stylesheet" href="Styles/product.css" title="Product">
+  </head>
+  <body>
+    <div id="nav">
+      <img src="Images/strawhut.jpg" id="navimage"/>
+      <span id="navtitle">The Snack Shack</span>
+      <span class="navlink" onclick="location.href='index.html'">Home</span>
+      <span class="navlink" onclick="location.href='pages.html'">Product Pages</span>
+      <span class="navlink" onclick="location.href='cart.php'">Cart</span>
+    </div>
+    <div>
+      <div id="leftcol">
+	    <img src="Images/product23.png" alt="Food Should Taste Good, Tortilla Chips, Multigrain Bean Chips, Black Bean, 5.5 oz">
+	  </div>
+      <div id="rightcol">
+        <div id="prodtitle">Food Should Taste Good, Tortilla Chips, Multigrain Bean Chips, Black Bean, 5.5 oz</div>
+        <div id="cartops">
+          <form id="addtocartform" action="cart.php" method="POST">
+		    <span id="price">$2.48</span>
+            <span id="quantityspan"> 
+			  <label id="qtylabel" for="quantity">Qty:</label>
+              <select id="quantity" name="quantity" form="addtocartform">
+                <option name="1">1</option>
+                <option name="2">2</option>
+                <option name="3">3</option>
+                <option name="4">4</option>
+                <option name="5">5</option>
+              </select>
+            </span> 
+			<input name="productid" value="23" type="hidden">
+			<input name="name" value="Food Should Taste Good, Tortilla Chips, Multigrain Bean Chips, Black Bean, 5.5 oz" type="hidden">
+			<input name="price" value="2.48" type="hidden">
+			<input id="addtocart" value="Add To Cart" type="submit"> 
+		  </form>
+        </div>
+        <div id="proddesc">
+		  <p class="subtitle">Fast Facts</p>
+          <ul>
+            <li>REAL INGREDIENTS: Baked in black beans, flax, sunflower, sesame seeds, quinoa and sea salt</li>
+            <li>GLUTEN FREE SNACKS: Certified gluten-free, vegan, kosher, non-GMO (Not made with genetically modified ingredients); Contains no artificial flavors or preservatives</li>
+            <li>WHOLESOME CHIPS: Good source of fiber, cholesterol free and low in sodium</li>
+			<li>MULTI GRAIN: Chips are delicious alone or with your favorite hummus or dips</li>
+          </ul>
+		  <div id="nutrition_div">
+            <table id="nutrition_table">
+              <tbody>
+                <tr><td class="nut_name subtitle">Nutrition Facts</td></tr>
+                <tr><td class="nut_name">Serving Size:</td><td class="nut_value">28g (10 pieces)</td></tr>
+                <tr><td class="nut_name">Serv. Per Container:</td><td class="nut_value">Approx. 5</td></tr>
+                <tr><td class="nut_name">Calories:</td><td class="nut_value">130</td></tr>
+                <tr><td class="nut_name">Total Fat:</td><td class="nut_value">6g</td></tr>
+                <tr><td class="nut_name">Total Cholesterol:</td><td class="nut_value">0mg</td></tr>
+                <tr><td class="nut_name">Sodium:</td><td class="nut_value">80mg</td></tr>
+                <tr><td class="nut_name">Total Carbohydrate:</td><td class="nut_value">16g</td></tr>
+                <tr><td class="nut_name">Protein:</td><td class="nut_value">4g</td></tr>
+              </tbody>
+            </table>
+          </div>
+		  <p class="subtitle">Description</p>
+          <p class="subtext">Made from wholesome ingredients, Food Should Taste Good® chips have been recognized with over 40 awards and are created with real ingredients, zero trans fats, and no cholesterol. Beyond their award winning taste, these chips are certified gluten free and Kosher, and are the perfect anytime snack.</p>
+          <p class="subtext">Food Should Taste Good Bean Chips Gluten Free non-GMO Black Bean Multigrain 5.5 oz Bag. BAKED IN Black Beans, Flax Seeds, Sunflower Seeds, Sesame Seeds & Quinoa.</p>
+		  <p class="subtitle">Ingredients</p>
+          <p class="subtext">Black Beans*, Stone Ground Corn, High Oleic Sunflower Oil And/Or Safflower Oil And/Or Canola Oil, Flax Seed, Brown Rice Flour, Cane Sugar, Sesame Seed, Sunflower Seeds, Sea Salt, Quinoa.*Dried</p>
+		  <p class="subtitle">Specifications</p>
+		  <div id="specification_div">
+		    <table id="specification_table">
+			  <tbody>
+				<tr class="specification_oddrow"><td class="spec_name">Brand</td><td class="spec_value">Food Should Taste Good</td></tr>
+				<tr class="specification_evenrow"><td class="spec_name">Flavor</td><td class="spec_value">MULTIGRAIN</td></tr>
+				<tr class="specification_oddrow"><td class="spec_name">Type</td><td class="spec_value">Specialty</td></tr>
+				<tr class="specification_evenrow"><td class="spec_name">Part Number</td><td class="spec_value">23</td></tr>
+				<tr class="specification_oddrow"><td class="spec_name">Product Weight</td><td class="spec_value">0.3437 Pounds</td></tr>
+				<tr class="specification_evenrow"><td class="spec_name">Food Form</td><td class="spec_value">Chips</td></tr>
+				<tr class="specification_oddrow"><td class="spec_name">Product Dimensions</td><td class="spec_value">5.25 x 3.00 x 8 Inches</td></tr>
+			  </tbody>
+			</table>
+		  </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

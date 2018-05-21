@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Fritos Original Corn Chips, 9.25 Ounce</title>
+    <link type="text/css" rel="stylesheet" href="Styles/nav.css">
+    <link type="text/css" rel="stylesheet" href="Styles/product.css" title="Product">
+  </head>
+  <body>
+    <div id="nav">
+      <img src="Images/strawhut.jpg" id="navimage"/>
+      <span id="navtitle">The Snack Shack</span>
+      <span class="navlink" onclick="location.href='index.html'">Home</span>
+      <span class="navlink" onclick="location.href='pages.html'">Product Pages</span>
+      <span class="navlink" onclick="location.href='cart.php'">Cart</span>
+    </div>
+    <div>
+      <div id="leftcol">
+	    <img src="Images/product5.png" alt="Fritos Original Corn Chips, 9.25 Ounce">
+	  </div>
+      <div id="rightcol">
+        <div id="prodtitle">Fritos Original Corn Chips, 9.25 Ounce</div>
+        <div id="cartops">
+          <form id="addtocartform" action="cart.php" method="POST">
+		    <span id="price">$1.97</span>
+            <span id="quantityspan"> 
+			  <label id="qtylabel" for="quantity">Qty:</label>
+              <select id="quantity" name="quantity" form="addtocartform">
+                <option name="1">1</option>
+                <option name="2">2</option>
+                <option name="3">3</option>
+                <option name="4">4</option>
+                <option name="5">5</option>
+              </select>
+            </span> 
+			<input name="productid" value="5" type="hidden">
+			<input name="name" value="Fritos Original Corn Chips, 9.25 Ounce" type="hidden">
+			<input name="price" value="1.97" type="hidden">
+			<input id="addtocart" value="Add To Cart" type="submit"> 
+		  </form>
+        </div>
+        <div id="proddesc">
+		  <p class="subtitle">Fast Facts</p>
+          <ul>
+            <li>9.25 oz. bag of FRITOS Original Corn Chips</li>
+            <li>Trusted FRITOS taste you know and love</li>
+            <li>FRITOS tasty corn chips are a delicious lunch or dinner snack</li>
+			<li>Gluten free product</li>
+          </ul>
+		  <div id="nutrition_div">
+            <table id="nutrition_table">
+              <tbody>
+                <tr><td class="nut_name subtitle">Nutrition Facts</td></tr>
+                <tr><td class="nut_name">Serving Size:</td><td class="nut_value">28g (32 pieces)</td></tr>
+                <tr><td class="nut_name">Serv. Per Container:</td><td class="nut_value">Approx. 11</td></tr>
+                <tr><td class="nut_name">Calories:</td><td class="nut_value">160</td></tr>
+                <tr><td class="nut_name">Total Fat:</td><td class="nut_value">10g</td></tr>
+                <tr><td class="nut_name">Total Cholesterol:</td><td class="nut_value">0mg</td></tr>
+                <tr><td class="nut_name">Sodium:</td><td class="nut_value">160mg</td></tr>
+                <tr><td class="nut_name">Total Carbohydrate:</td><td class="nut_value">16g</td></tr>
+                <tr><td class="nut_name">Protein:</td><td class="nut_value">2g</td></tr>
+              </tbody>
+            </table>
+          </div>
+		  <p class="subtitle">Description</p>
+          <p class="subtext">The popularity of FRITOS corn chips puts this iconic snack in a class of its own. From small towns and family barbecues to parties in the big city, this classic snack is still satisfying fans after more than 80 years.</p>
+          <p class="subtext">Add a delicious crunch between meals with Fritos Original Corn Chips. These classic Fritos corn chips are a snack everyone will love — they're perfect for any occasion whether you're watching a movie with the family or hosting a barbecue or summer get-together in the backyard.</p>
+          <p class="subtitle">Ingredients</p>
+          <p class="subtext">Corn, Corn Oil, and Salt.</p>
+		  <p class="subtitle">Specifications</p>
+		  <div id="specification_div">
+		    <table id="specification_table">
+			  <tbody>
+				<tr class="specification_oddrow"><td class="spec_name">Brand</td><td class="spec_value">FRITOS</td></tr>
+				<tr class="specification_evenrow"><td class="spec_name">Flavor</td><td class="spec_value">UNFLAVORED</td></tr>
+				<tr class="specification_oddrow"><td class="spec_name">Type</td><td class="spec_value">Corn Chips</td></tr>
+				<tr class="specification_evenrow"><td class="spec_name">Part Number</td><td class="spec_value">5</td></tr>
+				<tr class="specification_oddrow"><td class="spec_name">Product Weight</td><td class="spec_value">0.6 POUNDS</td></tr>
+				<tr class="specification_evenrow"><td class="spec_name">Food Form</td><td class="spec_value">Chips</td></tr>
+				<tr class="specification_oddrow"><td class="spec_name">Product Dimensions</td><td class="spec_value">2.54 x 10.97 x 7.45 Inches</td></tr>
+			  </tbody>
+			</table>
+		  </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

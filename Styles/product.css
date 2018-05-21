@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  padding: 0px;
+}
+li {
+  list-style-position: inside;
+}
+#leftcol {
+  float: left;
+  padding-top: 20px;
+}
+#rightcol {
+  overflow: hidden;
+}
+#prodtitle {
+  font-size: 2em; 
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#price {
+  color: #cc0000; 
+  font-size: 2em; 
+  vertical-align: middle;
+}
+#quantityspan {
+  margin-left: 100px;
+ }
+#addtocart {
+  border-width: 0px;
+  margin-left: 20px;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #84d934;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+#addtocart:hover {
+  background: #a9fc3c;
+  text-decoration: none;
+  cursor: pointer;
+}
+#nutrition_div {
+  margin-left: 20px;
+  float:right; 
+  border-width: 2px; 
+  border-style: solid; 
+  padding: 5px;
+}
+#specification_table {
+  border-style: none;
+  border-spacing: 0px;
+  margin-top: 10px;
+}
+.subtitle {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.subtext {
+  text-align: justify;
+}
+.nut_name {
+  text-align: right;
+  padding-right: 5px;
+}
+.specification_oddrow {
+  background-color: #e1f0fc;
+}
+.specification_evenrow {
+  background-color: #f5faff;
+}
+.spec_name {
+  padding: 5px;
+  padding-right: 10px;
+}
+.spec_value {
+  padding: 5px;
+  padding-right: 10px;
+}

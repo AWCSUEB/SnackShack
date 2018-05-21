@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Pepperidge Farm, Goldfish Crackers, Cheddar, 30 Oz Carton</title>
+    <link type="text/css" rel="stylesheet" href="Styles/nav.css">
+    <link type="text/css" rel="stylesheet" href="Styles/product.css" title="Product">
+  </head>
+  <body>
+    <div id="nav">
+      <img src="Images/strawhut.jpg" id="navimage"/>
+      <span id="navtitle">The Snack Shack</span>
+      <span class="navlink" onclick="location.href='index.html'">Home</span>
+      <span class="navlink" onclick="location.href='pages.html'">Product Pages</span>
+      <span class="navlink" onclick="location.href='cart.php'">Cart</span>
+    </div>
+    <div>
+      <div id="leftcol">
+	    <img src="Images/product19.png" alt="Pepperidge Farm, Goldfish Crackers, Cheddar, 30 Oz Carton">
+	  </div>
+      <div id="rightcol">
+        <div id="prodtitle">Pepperidge Farm, Goldfish Crackers, Cheddar, 30 Oz Carton</div>
+        <div id="cartops">
+          <form id="addtocartform" action="cart.php" method="POST">
+		    <span id="price">$6.26</span>
+            <span id="quantityspan"> 
+			  <label id="qtylabel" for="quantity">Qty:</label>
+              <select id="quantity" name="quantity" form="addtocartform">
+                <option name="1">1</option>
+                <option name="2">2</option>
+                <option name="3">3</option>
+                <option name="4">4</option>
+                <option name="5">5</option>
+              </select>
+            </span> 
+			<input name="productid" value="19" type="hidden">
+			<input name="name" value="Pepperidge Farm, Goldfish Crackers, Cheddar, 30 Oz Carton" type="hidden">
+			<input name="price" value="6.26" type="hidden">
+			<input id="addtocart" value="Add To Cart" type="submit"> 
+		  </form>
+        </div>
+        <div id="proddesc">
+		  <p class="subtitle">Fast Facts</p>
+          <ul>
+            <li>Playful crackers baked with a smile</li>
+            <li>Cheddar flavor</li>
+            <li>Baked with real cheese, colors sourced from plants and no artificial preservatives or flavors</li>
+			<li>Perfect for parties or portioning with easy-pour carton spout</li>
+          </ul>
+		  <div id="nutrition_div">
+            <table id="nutrition_table">
+              <tbody>
+                <tr><td class="nut_name subtitle">Nutrition Facts</td></tr>
+                <tr><td class="nut_name">Serving Size:</td><td class="nut_value">30g (55 pieces)</td></tr>
+                <tr><td class="nut_name">Serv. Per Container:</td><td class="nut_value">Approx. 28</td></tr>
+                <tr><td class="nut_name">Calories:</td><td class="nut_value">140</td></tr>
+                <tr><td class="nut_name">Total Fat:</td><td class="nut_value">5g</td></tr>
+                <tr><td class="nut_name">Total Cholesterol:</td><td class="nut_value">10mg</td></tr>
+                <tr><td class="nut_name">Sodium:</td><td class="nut_value">250mg</td></tr>
+                <tr><td class="nut_name">Total Carbohydrate:</td><td class="nut_value">20g</td></tr>
+                <tr><td class="nut_name">Protein:</td><td class="nut_value">3g</td></tr>
+              </tbody>
+            </table>
+          </div>
+		  <p class="subtitle">Description</p>
+          <p class="subtext">The Snack that Smiles Back: When it comes to Goldfish crackers, you can feel good about serving your favorite snacks. All of our cheese varieties, like cheddar, are baked with real cheese, and Goldfish crackers are made with no artificial preservatives or flavors.</p>
+          <p class="subtext">The 30 oz. carton is also available in Xtra Cheddar Flavor Blasted Goldfish crackers, Cheddar Goldfish Colors, and Baked with Whole Grain Cheddar Goldfish crackers - made with 12g of whole grain per serving. Everyone loves Goldfish crackers they're tasty and fun! With a large 30 oz. carton you can always come back for more, or have enough to feed a crowd.</p>
+		  <p class="subtitle">Ingredients</p>
+          <p class="subtext">Unbleached Enriched Wheat Flour (Flour, Niacin, Reduced Iron, Thiamine Mononitrate [Vitamin B1], Riboflavin [Vitamin B2], Folic Acid), Cheddar Cheese ([Cultured Milk, Salt, Enzymes], Annatto), Vegetable Oils (Canola, Sunflower and/or Soybean), Contains 2 Percent or Less of Salt, Yeast, Sugar, Autolyzed Yeast, Leavening (Baking Soda, Monocalcium Phosphate, Ammonium Bicarbonate), Paprika, Spices (Contains Celery), and Dehydrated Onions</p>
+		  <p class="subtitle">Specifications</p>
+		  <div id="specification_div">
+		    <table id="specification_table">
+			  <tbody>
+				<tr class="specification_oddrow"><td class="spec_name">Brand</td><td class="spec_value">Pepperidge Farm</td></tr>
+				<tr class="specification_evenrow"><td class="spec_name">Flavor</td><td class="spec_value">Cheddar</td></tr>
+				<tr class="specification_oddrow"><td class="spec_name">Type</td><td class="spec_value">Cheese Crackers</td></tr>
+				<tr class="specification_evenrow"><td class="spec_name">Part Number</td><td class="spec_value">19</td></tr>
+				<tr class="specification_oddrow"><td class="spec_name">Product Weight</td><td class="spec_value">2.0964 Pounds</td></tr>
+				<tr class="specification_evenrow"><td class="spec_name">Food Form</td><td class="spec_value">Crackers</td></tr>
+				<tr class="specification_oddrow"><td class="spec_name">Product Dimensions</td><td class="spec_value">5.54 x 5.54 x 10.25 Inches</td></tr>
+			  </tbody>
+			</table>
+		  </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+body {
+  width: 1200px;
+}
+#nav {
+  margin-bottom: 10px;
+}
+#navtitle {
+  font-family: 'Showcard Gothic', Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  vertical-align: middle;
+  padding: 10px;
+  margin-right: 50px;
+}
+#navimage {
+  vertical-align: middle;
+}
+.navlink {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #586873;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.navlink:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+  cursor: pointer;
+}
+.navlink a {
+  text-decoration: none;
+  color: #ffffff;
+}
