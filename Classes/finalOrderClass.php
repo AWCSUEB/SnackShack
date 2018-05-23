@@ -55,9 +55,7 @@ FORM;
         'userinfo' => $this->userInfo->toArray(),
         'paymentinfo' => $this->paymentInfo->toArray()
       );
-      //$req = new HTTP_Request2('http://boiling-coast-46544.herokuapp.com/storeData');
-      $req = new HTTP_Request2('http://blooming-cove-71969.herokuapp.com/storeData');
-      //$req = new HTTP_Request2('http://localhost:3000/storeData');
+      $req = new HTTP_Request2('http://boiling-coast-46544.herokuapp.com/storeData');
       $req->setMethod(HTTP_Request2::METHOD_POST);
       $req->addPostParameter('order', json_encode($a, JSON_PRETTY_PRINT));
       $res = $req->send();
