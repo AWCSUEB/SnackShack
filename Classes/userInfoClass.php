@@ -83,7 +83,10 @@ class userInfo {
   var $billzip; // zip (required)
   var $billemail; // email address (required)
   var $billphone; // phone # (required)
-  
+
+  /*
+   * Generate an array of billing and shipping data that will represent customers and shipping documents
+   */
   function toArray() {
     global $session_userinfo;
     

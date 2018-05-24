@@ -49,6 +49,9 @@ class paymentInfo
   var $cardcvv;
   var $cardname;
 
+  /*
+   * Generate an array of paymentinfo data that will represent a billing object
+   */
   function toArray() {
     global $session_paymentinfo;
 

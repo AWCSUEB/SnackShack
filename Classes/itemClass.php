@@ -17,6 +17,7 @@ class item {
     $this->price = $price;
   }
 
+  // Make individual item vector
   function getVector()
   {
     return "{" . $this->code . ", " . $this->quantity . ", " . number_format($this->price, 2) . "}";

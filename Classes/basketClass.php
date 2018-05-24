@@ -193,6 +193,9 @@ class basket {
     return $total;
   }
 
+  /*
+   * Generate an array of the basket data that will represent an order document
+   */
   function toArray() {
     $a = array(
       'date' => date("c"),
